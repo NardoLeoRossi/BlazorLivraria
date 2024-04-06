@@ -1,0 +1,12 @@
+C:\dev\BlazorLivraria\Livraria\Livraria.Domain\bin\Debug\net8.0\Livraria.Domain.deps.json
+C:\dev\BlazorLivraria\Livraria\Livraria.Domain\bin\Debug\net8.0\Livraria.Domain.dll
+C:\dev\BlazorLivraria\Livraria\Livraria.Domain\bin\Debug\net8.0\Livraria.Domain.pdb
+C:\dev\BlazorLivraria\Livraria\Livraria.Domain\obj\Debug\net8.0\Livraria.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\BlazorLivraria\Livraria\Livraria.Domain\obj\Debug\net8.0\Livraria.Domain.AssemblyInfoInputs.cache
+C:\dev\BlazorLivraria\Livraria\Livraria.Domain\obj\Debug\net8.0\Livraria.Domain.AssemblyInfo.cs
+C:\dev\BlazorLivraria\Livraria\Livraria.Domain\obj\Debug\net8.0\Livraria.Domain.csproj.CoreCompileInputs.cache
+C:\dev\BlazorLivraria\Livraria\Livraria.Domain\obj\Debug\net8.0\Livraria.Domain.sourcelink.json
+C:\dev\BlazorLivraria\Livraria\Livraria.Domain\obj\Debug\net8.0\Livraria.Domain.dll
+C:\dev\BlazorLivraria\Livraria\Livraria.Domain\obj\Debug\net8.0\refint\Livraria.Domain.dll
+C:\dev\BlazorLivraria\Livraria\Livraria.Domain\obj\Debug\net8.0\Livraria.Domain.pdb
+C:\dev\BlazorLivraria\Livraria\Livraria.Domain\obj\Debug\net8.0\ref\Livraria.Domain.dll
