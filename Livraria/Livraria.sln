@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Livraria.Domain", "Livraria.Domain\Livraria.Domain.csproj", "{3BA239F3-67B5-475F-BCE4-4D3F6E214F60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Livraria.Domain", "Livraria.Domain\Livraria.Domain.csproj", "{3BA239F3-67B5-475F-BCE4-4D3F6E214F60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Livraria.Application", "Livraria.Application\Livraria.Application.csproj", "{FB0B50BC-2CF9-40B5-90BD-7784EF349072}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Livraria.Application", "Livraria.Application\Livraria.Application.csproj", "{FB0B50BC-2CF9-40B5-90BD-7784EF349072}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Livraria.Infrastructure", "Livraria.Infrastructure\Livraria.Infrastructure.csproj", "{73E2A1D3-D648-4B03-B1AB-03DF24FAB1DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Livraria.Infrastructure", "Livraria.Infrastructure\Livraria.Infrastructure.csproj", "{73E2A1D3-D648-4B03-B1AB-03DF24FAB1DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Livraria.CrossCutting", "Livraria.CrossCutting\Livraria.CrossCutting.csproj", "{0494AACC-ED58-433E-B70B-F60245D88E36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Livraria.CrossCutting", "Livraria.CrossCutting\Livraria.CrossCutting.csproj", "{0494AACC-ED58-433E-B70B-F60245D88E36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Livraria.Blazor", "Livraria.Blazor\Livraria.Blazor.csproj", "{DBC4DC8A-BE55-448C-AC67-A558FC350262}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Livraria.Blazor", "Livraria.Blazor\Livraria.Blazor.csproj", "{DBC4DC8A-BE55-448C-AC67-A558FC350262}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Livraria.BlazorMud", "Livraria.BlazorMud\Livraria.BlazorMud.csproj", "{9B768AD0-7F59-4518-B3F5-4C7CE68F2CAB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{DBC4DC8A-BE55-448C-AC67-A558FC350262}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBC4DC8A-BE55-448C-AC67-A558FC350262}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBC4DC8A-BE55-448C-AC67-A558FC350262}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B768AD0-7F59-4518-B3F5-4C7CE68F2CAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B768AD0-7F59-4518-B3F5-4C7CE68F2CAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B768AD0-7F59-4518-B3F5-4C7CE68F2CAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B768AD0-7F59-4518-B3F5-4C7CE68F2CAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

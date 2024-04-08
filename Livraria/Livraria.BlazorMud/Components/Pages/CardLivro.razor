@@ -1,0 +1,40 @@
+﻿<MudCard Style="width:200px">
+    <MudCardMedia Image="@GetCapaPath(livro)" Height="200"/>
+    <MudCardContent>
+        <MudText Typo="Typo.h5">@livro.Titulo</MudText>
+        <MudText Typo="Typo.body2">@livro.Autor</MudText>
+        <MudText Typo="Typo.body2">@livro.Categoria.ToString() | @livro.Editora.ToString() | @livro.Lancamento.ToString("dd/MM/yyyy")</MudText>
+    </MudCardContent>
+    <MudCardActions>
+        <MudButton Variant="Variant.Text" Color="Color.Primary">Editar</MudButton>
+        <MudButton Variant="Variant.Text" Color="Color.Error">Excluir</MudButton>
+    </MudCardActions>
+</MudCard>
+
+@code 
+{
+    [Parameter]
+    public required Livro livro { get; set; }
+
+    private bool exibirDialogo;
+
+    private void ConfirmaDialogo()
+    {
+        exibirDialogo = true;
+    }
+    private void CancelaExclusao()
+    {
+        exibirDialogo = false;
+    }
+    private async Task ConfirmaExclusao()
+    {
+        await livroRepository.DeletarLivro(livro.LivroId);
+        exibirDialogo = false;
+        navigation.NavigateTo("/livros");
+    }
+
+    private string GetCapaPath(Livro l)
+    {
+        return @"/images/" + l.Capa;
+    }
+}
